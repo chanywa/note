@@ -15,3 +15,11 @@ git checkout master
 git reset --hard upstream/master
 git push origin master --force
 ```
+
+
+## Rename branch
+```
+git branch -m old-name new-name
+git push origin :old-name new-name
+git push origin -u new-name
+```
